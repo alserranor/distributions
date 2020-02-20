@@ -79,9 +79,7 @@ class Binomial(Distribution):
         self.n = len(self.data)
         self.p = 1.0 * sum(self.data) / len(self.data)
         self.mean = self.calculate_mean()
-        self.stdev = self.calculate_stdev()
-        
-        return self.p, self.n
+        self.stdev = self.calculate_stdev()     
 
     
         
@@ -104,7 +102,7 @@ class Binomial(Distribution):
         
         
     def pdf(self, k):
-        """Probability density function calculator for the binomial distribution.
+        """Probability density function calculator for the gaussian distribution.
         
         Args:
             x (float): point for calculating the probability density function

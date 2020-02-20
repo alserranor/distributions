@@ -1,7 +1,9 @@
 from setuptools import setup
 
-setup(name = 'distributions',
-	version = '0.1',
-	description = 'Gaussian distributions',
-	packages = ['distributions'],
-	zip_safe = False)
+setup(name = 'statDistributions',
+      version = '1.0',
+      description = 'Gaussian and Binominal distributions',
+      packages = ['statDistributions'],
+      author = 'Alberto Serrano',
+      author_email = 'albertoserranoreigosa@gmail.com',
+      zip_safe = False)
